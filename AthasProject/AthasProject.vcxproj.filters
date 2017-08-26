@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{cb108474-6e14-44c5-8605-9cd744248aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{50a75c72-950d-43a2-9d43-722031236acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{3beb13fc-f639-415f-b019-183021af0499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{59e663bf-5fd9-4fd4-a61c-86168a838f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{0c0fcdd3-47bf-4aa6-a1e6-a170958ab88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{44c15ec0-234b-4277-8a23-b9d7bb491e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Store">
+      <UniqueIdentifier>{bad72b5f-0fa9-4d74-82d0-a1b9ed6bae6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{b593ae9a-21bd-4b21-868e-f41a69a8a6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{d6e289dc-99c0-42f0-b45b-8542dd3c5f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{9f598d9b-bf66-4052-9d0e-d72df766f9ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AthasProject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneHierachy.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundBox.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundSphere.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cColorCube.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight_Directional.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight_Point.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cModelCube.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticle.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleEmitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadParticle.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadParticleEmitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadTree.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkinnedAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrain.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cTrailRenderer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cTransform.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh_Skinned.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh_Static.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cWayEdge.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="cWayPoint.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="cGraphManager.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_Effect.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_Texture.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_XMeshSkinned.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_XMeshStatic.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cSingletonBase.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpriteManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeMgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cDXFontManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cGizmoManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyMgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cLogMgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysicsManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cPriorityQueue.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMatrixFunction.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUtil.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector3Function.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Loading.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cCircle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrustum.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cRenderTexture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cTexQuad.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarNodePool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Town.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cUser.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cArthas.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Title.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cSound3D.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cAction.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIButton.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIImageView.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIObject.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cUITextView.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cFontManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_MapTool.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Store</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Store</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>Store</Filter>
+    </ClInclude>
+    <ClInclude Include="cInventory.h">
+      <Filter>Store</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Title.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cTest.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="cUserInfoUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cUserMenuUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cTime_Manager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonsterZone.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_MapTest.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cNpc.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cMerchant.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cUI_Billboard.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpell.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="video.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene_Intro.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cBossZone.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpell2.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AthasProject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneHierachy.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundBox.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundSphere.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cColorCube.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight_Directional.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight_Point.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cModelCube.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticle.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleEmitter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadParticle.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadParticleEmitter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadTree.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkinnedAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrain.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cTrailRenderer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cTransform.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh_Skinned.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh_Static.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cWayEdge.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="cWayPoint.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="cGraphManager.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_Effect.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_Texture.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_XMeshSkinned.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_XMeshStatic.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cSingletonBase.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpriteManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeMgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cDXFontManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cGizmoManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyMgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cLogMgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysicsManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cPriorityQueue.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMatrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMatrixFunction.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUtil.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MyVector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MyVector3Function.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Loading.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cTexQuad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarNodePool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cCircle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrustum.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cImage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cRenderTexture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cSound3D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Town.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cUser.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cArthas.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Title.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cAction.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIButton.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIImageView.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIObject.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cUITextView.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cFontManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_MapTool.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Store</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>Store</Filter>
+    </ClCompile>
+    <ClCompile Include="cInventory.cpp">
+      <Filter>Store</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Title.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cTest.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="cUserInfoUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cUserMenuUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cTime_Manager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonsterZone.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_MapTest.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cNpc.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cMerchant.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cUI_Billboard.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpell.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="video.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene_Intro.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cBossZone.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpell2.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AthasProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="AthasProject.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

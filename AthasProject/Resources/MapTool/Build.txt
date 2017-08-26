@@ -1,0 +1,2 @@
+./Resources/XMeshSkinned/OBJ/House2/house2.X
+-109.282608 114.195953
